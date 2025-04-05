@@ -1,11 +1,11 @@
-# Multiple Linear Regression for House Price Prediction
+# Multiple Linear Regression vs KNearestNeighbours(KNN) for House Price Prediction
 
 I worked on this project as part of AISG Foundations In AI Certification.
 
-This project demonstrates the use of Multiple Linear Regression to predict house prices based on various features such as area, number of rooms, and house style.
+This project demonstrates the use of Multiple Linear Regression and KNN to predict house prices based on various features such as area, number of rooms, and house style.
 
 ## Project Overview
-The goal of this project is to build a machine learning model that can predict the price of a house based on a set of input features using multiple linear regression.
+The goal of this project is to build machine learning models that can predict the price of a house based on a set of input features using multiple linear regression.
 
 ## Key Features
 
@@ -13,14 +13,14 @@ The goal of this project is to build a machine learning model that can predict t
 Includes feature engineering (e.g., calculating the age of a house) and scaling of numerical features.
 
 ### 2. Modeling: 
-A multiple linear regression model is used to predict the target variable SalePrice.
+A multiple linear regression model/KNN model is used to predict the target variable SalePrice.
 
 ### 3. Evaluation: 
 The model’s performance is evaluated using metrics such as RMSE (Root Mean Squared Error) and R² Score.
+The 2 different models are compared against each other by these metrics. 
 
 ### 4. Pipeline: 
 The model and preprocessing steps are combined into a single pipeline for efficient execution.
-
 
 ## Requirements
 1. Python
@@ -48,5 +48,3 @@ Link: https://www.kaggle.com/c/home-data-for-ml-course/data
 5. Model Evaluation: Evaluate model performance using RMSE and R² Score.
 
 6. Save Model: The trained model is saved using joblib for future use.
-
-
